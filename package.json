@@ -1,0 +1,31 @@
+{
+  "name": "nlw-heat2021-project",
+  "version": "1.0.0",
+  "description": "A project developed at Next Level Week Heat using Node JS, Typescript, Prisma ORM and Socket.IO.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fid3lles/nlw-heat2021-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fid3lles/nlw-heat2021-project/issues"
+  },
+  "homepage": "https://github.com/fid3lles/nlw-heat2021-project#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "prisma": "^3.2.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  }
+}
